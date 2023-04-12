@@ -1,12 +1,12 @@
 import Counter from '../components/Counter';
 
 function Home() {
-  const counters = [{ title: 'Counter 1' }, { title: 'Counter 2' }, { title: 'Counter 3' }];
+  const counters = [{ animalName: 'Bear' }, { animalName: 'Lion' }, { animalName: 'Steven' }];
 
   return (
     <>
-      {counters.map((counter) => (
-        <Counter key={counter.title} title={counter.title} />
+      {counters.map((animal) => (
+        <Counter key={animal.animalName} title={animal.animalName} />
       ))}
     </>
   );

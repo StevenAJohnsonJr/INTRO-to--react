@@ -11,7 +11,7 @@ export default function Counter({ title }) {
   return (
     <div>
       {value === 5 ? (
-        'YOU DA WIENER'
+        <h1>'YOU JUST WANNA BE MEEEEEEEE!!!!!'</h1>
       ) : (
         <>
           <h1>{title}</h1>
